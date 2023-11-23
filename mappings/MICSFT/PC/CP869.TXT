@@ -5,7 +5,7 @@
 #    Table format:  Format A
 #    Date:          04/24/96
 #    Contact: Shawn.Steele@microsoft.com
-#                   
+#
 #    General notes: none
 #
 #    Format: Three tab-separated columns
@@ -150,7 +150,7 @@
 0x84		#UNDEFINED
 0x85		#UNDEFINED
 0x86	0x0386	#GREEK CAPITAL LETTER ALPHA WITH TONOS
-0x87		#UNDEFINED
+0x87  0x20ac  #EURO SIGN
 0x88	0x00b7	#MIDDLE DOT
 0x89	0x00ac	#NOT SIGN
 0x8a	0x00a6	#BROKEN BAR
