@@ -6,6 +6,7 @@
 
 %% Public functions
 to_unicode(16#86) -> 16#0386;
+to_unicode(16#87) -> 16#20ac;
 to_unicode(16#88) -> 16#00b7;
 to_unicode(16#89) -> 16#00ac;
 to_unicode(16#8a) -> 16#00a6;
@@ -129,6 +130,7 @@ to_unicode(Bin) when is_binary(Bin) -> bin_to_unicode(Bin, <<>>);
 to_unicode(Other) -> Other.
 
 from_unicode(16#0386) -> 16#86;
+from_unicode(16#20ac) -> 16#87;
 from_unicode(16#00b7) -> 16#88;
 from_unicode(16#00ac) -> 16#89;
 from_unicode(16#00a6) -> 16#8a;
