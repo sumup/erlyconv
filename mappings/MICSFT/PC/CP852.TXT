@@ -5,7 +5,7 @@
 #    Table format:  Format A
 #    Date:          04/24/96
 #    Contact: Shawn.Steele@microsoft.com
-#                   
+#
 #    General notes: none
 #
 #    Format: Three tab-separated columns
@@ -185,7 +185,7 @@
 0xa7	0x017e	#LATIN SMALL LETTER Z WITH CARON
 0xa8	0x0118	#LATIN CAPITAL LETTER E WITH OGONEK
 0xa9	0x0119	#LATIN SMALL LETTER E WITH OGONEK
-0xaa	0x00ac	#NOT SIGN
+0xaa	0x20ac	#NOT SIGN
 0xab	0x017a	#LATIN SMALL LETTER Z WITH ACUTE
 0xac	0x010c	#LATIN CAPITAL LETTER C WITH CARON
 0xad	0x015f	#LATIN SMALL LETTER S WITH CEDILLA
